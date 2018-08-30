@@ -1,0 +1,84 @@
+.no-mar-bottom{ margin-bottom: 0; }
+.gap-20{ padding-bottom: 20px; }
+.gap-10{ padding-bottom: 10px; }
+img{ max-width: 100%; height: auto !important; vertical-align: middle; }
+
+nav{ background-color: #fff; color: #656565; box-shadow: none; }
+nav .brand-logo{ position: relative; display: block; height: 32px; line-height: 32px; color: #2a6496; font-size: 1.1rem;}
+nav .brand-logo:hover{ text-decoration: underline}
+nav ul li.active{ background-color: transparent; }
+nav ul li.active a{ color: #8bc34a; }
+nav ul a{ color: #656565; }
+nav ul a:hover{ background-color: transparent; }
+
+#main-text .logo{ text-align: center}
+#main-text h1{ font-size: 2.28rem !important; line-height: 110%; margin: 0.912rem 0 !important; text-align: center}
+#main-text h5{ margin: 0.656rem 0; text-align: center; }
+#main-text p{ color: #656565; }
+#main-text .logo-img{ vertical-align: middle; text-align: center; width: 100%; height: 100% }
+#main-text img{ vertical-align: middle}
+#main-text .text{ margin-bottom: 20px}
+#main-text .text .content{ max-height: 45px; overflow: hidden; margin: 0;}
+#main-text .text p{ margin-top: 0}
+#main-text .text .btn{ padding: 0 1rem; height: 26px; line-height: 26px; text-transform: none; color: #8bc34a; background-color: transparent; box-shadow: none}
+
+.callback .input-field{ margin-top: 0; }
+.callback input[type=text]:focus:not([readonly]), input[type=tel]:focus:not([readonly]){ border-bottom: 1px solid #8bc34a; box-shadow: 0 1px 0 0 #8bc34a; }
+.callback input[type=text]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label{ color: #8bc34a; }
+.callback input[type=text], input[type=tel]{ height: 2.5rem; }
+.callback .btn{ background-color: #8bc34a; border-radius: 16px; }
+.callback .btn:hover{ background-color: #99d751; }
+
+#main-image{ text-align: center; }
+
+#why-us{ background-color: #000; }
+#why-us h5{ text-align: center; color: #fff; margin: 0; padding: 30px 0; }
+#why-us .adv{ color: #fff; text-align: center; margin-bottom: 20px}
+#why-us .adv .desc{ margin-top: 20px; font-size: 1.2em}
+#why-us .icon-circle{ position: relative; background-color: #424242; width: 150px; height: 150px; border-radius: 50%; margin: 0 auto}
+#why-us .icon-circle:hover{ background-color: #fff; cursor: pointer; transition: ease .5s}
+#why-us .icon-circle img{ position: absolute; left: 50%; top: 50%; margin-top: -36px; margin-left: -36px}
+
+#catalog{ background-color: #f5f5f5; }
+#catalog h5{ color: #000; text-align: center; margin: 0; padding: 30px 0; }
+#catalog .card h5.type{ color: #000; margin: 15px 0 15px 0; padding: 0; }
+#catalog .card p.text{ min-height: 88px; margin-bottom: 20px; }
+#catalog .card .buy .btn{ background-color: #8bc34a; }
+#catalog .card .buy .btn:hover{ background-color: #99d751; }
+
+#gallery img{ width: 100%}
+#gallery #links{ margin-top: 20px}
+#gallery .col.s6.m4{ padding: 0.75rem}
+
+#how-we-work{ background-color: #689f38; }
+#how-we-work h5{ color: #fff; text-align: center; margin: 0; padding: 30px 0; }
+#how-we-work img.desktop{ margin-left: 40px; margin-bottom: 40px }
+#how-we-work img.mobile{ display: none; margin: 0 auto }
+
+#our-clients{ background-color: #eaeaea; }
+#our-clients h5{ text-align: center; color: #000; margin: 0; padding: 30px 0; }
+#our-clients .item{ padding: 0 15px;}
+#our-clients .item img{ height: 163px !important; border-radius: 10px}
+#our-clients .owl-theme .owl-dots{ display: block; bottom: 0; padding-top: 20px }
+#our-clients .owl-theme .owl-nav{ display: none; }
+
+#reviews{ background: url("../img/review.png") center; }
+#reviews h5{ text-align: center; color: #fff; margin: 0; padding: 30px 0; }
+#reviews .review-card{ background-color: #689f38; padding: 30px; border-radius: 75px 75px 75px 0; color: #fff; }
+#reviews .review-card .icon-circle{ text-align: center}
+#reviews .review-card .name{ font-size: 20px; margin: 0 0 5px 0; }
+#reviews .review-card .text{ margin: 0; }
+#reviews .review-card.right-align{ border-radius: 75px 75px 0 75px; }
+
+.callback h5{ text-align: center; color: #000; margin: 0; padding: 30px 0; }
+.callback h5 span{ font-size: 1rem}
+
+#contacts{ background-color: #f5f5f5; }
+#contacts h5{ text-align: center; color: #000; margin: 0; padding: 30px 0; }
+#contacts .tel{ position: relative; background-color: #eeeeee; padding: 15px 0; border-radius: 75px;}
+#contacts .card-panel{ position: absolute; left: 0; top: 0; background-color: #fff; width: 50px; height: 50px; border-radius: 50%; margin: 0; }
+#contacts .card-panel img{ position: absolute; left: 50%; top: 50%; margin-top: -12px; margin-left: -12px}
+#contacts .col.s12.m4 .row{ margin-left: 0; margin-right: 0; }
+#contacts p{ background-color: #fff; padding: 15px; border: 1px solid #eeeeee}
+
+footer{ background-color: #689f38; color: #fff; text-align: center; padding: 15px 0; }

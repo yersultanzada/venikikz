@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px){
+    #reviews{
+        background: #004d40;
+    }
+}
+@media only screen and (max-width: 800px){
+    #how-we-work img.desktop{
+        display: none;
+    }
+    #how-we-work img.mobile{
+        display: block;
+    }
+}
+@media only screen and (max-width: 992px){
+    nav .brand-logo{
+        display: inline-block;
+    }
+    nav .col.s12.m4.l4{
+        float: none;
+    }
+}
